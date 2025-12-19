@@ -3,16 +3,16 @@
 **As of Home Assistant _2025.6_, this integration is part of Home Assistant.**
 **This repository will no longer be updated. All users are encouraged to update to the build-in version.**
 
-Please see [bosch-alarm-mode2](https://github.com/mag1024/bosch-alarm-mode2)'s [README](https://github.com/mag1024/bosch-alarm-mode2?tab=readme-ov-file#issues) for contact points.
+Please see [bosch-alarm-mode2](https://github.com/dimxyp/bosch-alarm-mode2)'s [README](https://github.com/dimxyp/bosch-alarm-mode2?tab=readme-ov-file#issues) for contact points.
 
 -----
 
 ### Home Assistant integration for Bosch Alarm Panels, using the _Mode 2_ API.
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/hacs/integration)
-[![Stable](https://img.shields.io/github/v/release/mag1024/bosch-alarm-homeassistant)](https://github.com/mag1024/bosch-alarm-homeassistant/releases/latest)
+[![Stable](https://img.shields.io/github/v/release/dimxyp/bosch-alarm-homeassistant)](https://github.com/dimxyp/bosch-alarm-homeassistant/releases/latest)
 
-![Screenshot 2023-11-18 at 01 10 27](https://github.com/mag1024/bosch-alarm-homeassistant/assets/787978/022c331d-6a11-4796-b773-fc19c5bee32b)
+![Screenshot 2023-11-18 at 01 10 27](https://github.com/dimxyp/bosch-alarm-homeassistant/assets/787978/022c331d-6a11-4796-b773-fc19c5bee32b)
 
 Supported panels:
  * _Solution 2000/3000/4000_
@@ -23,7 +23,7 @@ Supported panels:
 
 [^1]: Firmware 2.0+
 
-Based on the [bosch-alarm-mode2](https://github.com/mag1024/bosch-alarm-mode2) library, which uses subscriptions/push updates for panels that support it.
+Based on the [bosch-alarm-mode2](https://github.com/dimxyp/bosch-alarm-mode2) library (forked from mag1024 with bypass zone support), which uses subscriptions/push updates for panels that support it.
 
 ### Provided entities
 - [AlarmControlPanel](https://developers.home-assistant.io/docs/core/entity/alarm-control-panel/) for each configured area, with the ability to issue arm/disarm commands.
@@ -53,4 +53,4 @@ The integration also supports (optionally) setting a Home Assistant-local pin to
 
 ### Installation
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mag1024&repository=bosch-alarm-homeassistant&category=integration)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=dimxyp&repository=bosch-alarm-homeassistant&category=integration)
